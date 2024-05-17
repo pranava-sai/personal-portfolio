@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://pranava-sai.github.io",
+  "homepage": "https://pranava-sai.github.io/personal-portfolio",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
