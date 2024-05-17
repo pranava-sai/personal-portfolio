@@ -1,12 +1,13 @@
 {
   "homepage": "https://pranava-sai.github.io/personal-portfolio",
+  
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
-  "scripts":{
+  "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build" 
-}
+  },
   "dependencies": {
     "react-scripts": "^5.0.1"
   }
