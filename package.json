@@ -4,21 +4,25 @@
   "homepage": "https://pranava-sai.github.io/personal-portfolio",
   "private": true,
   "dependencies": {
+    "@cloudinary/url-gen": "^1.19.0",
+    "@imgly/background-removal": "^1.5.2",
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
     "bootstrap": "^5.1.3",
+    "date-fns": "^3.6.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.1",
+    "react-calendar": "^5.0.0",
     "react-dom": "^17.0.2",
     "react-github-calendar": "^3.2.2",
     "react-icons": "^4.8.0",
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^5.7.1",
     "react-router-dom": "^6.2.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.1",
     "react-tsparticles": "^1.42.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
@@ -50,6 +54,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/plugin-transform-react-jsx": "^7.23.4",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
     "gh-pages": "^6.1.1"
   }
 }
