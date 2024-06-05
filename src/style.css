@@ -538,6 +538,15 @@ button:focus {
   padding-top: 10px !important;
 }
 
+.project-heading2 {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
 /* --------- */
 /* About */
 /* --------- */
@@ -613,7 +622,7 @@ button:focus {
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
-  justify-content: center;
+  justify-content: center
 }
 
 .resume-left {
@@ -741,3 +750,72 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* Projects.css */
+.certification-section {
+  padding: 2rem;
+}
+
+.project-heading2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.transparent-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.transparent-card-text {
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.img-fluid.rounded-circle {
+  border: 2px solid #ddd;
+  padding: 5px;
+}
+
+.transparent-card {
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+}
+
+.transparent-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .project-heading2 {
+    font-size: 1.5rem;
+  }
+
+  .transparent-card-text {
+    font-size: 1rem;
+  }
+}
+
+.modal-100w {
+  width: 100% !important;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-group > button {
+  flex: 1 1 auto;
+  min-width: calc(50% - 10px); /* Adjust for spacing */
+  margin-bottom: 10px;
+}
+
+
+
+
+
+

@@ -91,6 +91,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certificates"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Certifications
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/pranava-sai/personal-portfolio"
