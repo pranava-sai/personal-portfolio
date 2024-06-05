@@ -1,12 +1,21 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.09f1971a.css",
-    "main.js": "/personal-portfolio/static/js/main.0f90138a.js",
+    "main.css": "/personal-portfolio/static/css/main.880c547f.css",
+    "main.js": "/personal-portfolio/static/js/main.b0423b4b.js",
     "static/js/453.ace21015.chunk.js": "/personal-portfolio/static/js/453.ace21015.chunk.js",
     "static/media/pranav-logo.gif": "/personal-portfolio/static/media/pranav-logo.d5ac47638e6cb458481f.gif",
     "static/media/monalisa.png": "/personal-portfolio/static/media/monalisa.008598a085904faa28cc.png",
     "static/media/radarlight.png": "/personal-portfolio/static/media/radarlight.20659de7ba0ed0c443bb.png",
+    "static/media/Cybersecurity.pdf": "/personal-portfolio/static/media/Cybersecurity.d3088c345bcecd940207.pdf",
     "static/media/dc.png": "/personal-portfolio/static/media/dc.e8a548b01483fb108383.png",
+    "static/media/Course_3.pdf": "/personal-portfolio/static/media/Course_3.4882fe62db3fc611161f.pdf",
+    "static/media/Course_4.pdf": "/personal-portfolio/static/media/Course_4.d5d157150c5c62c49849.pdf",
+    "static/media/Course_8.pdf": "/personal-portfolio/static/media/Course_8.f6bd95d80e886155acd9.pdf",
+    "static/media/Course_2.pdf": "/personal-portfolio/static/media/Course_2.0e7b253a01fde37bee52.pdf",
+    "static/media/Course_7.pdf": "/personal-portfolio/static/media/Course_7.513eb7fe07f7f526a88a.pdf",
+    "static/media/Course_5.pdf": "/personal-portfolio/static/media/Course_5.d4aa2c9da451737077c3.pdf",
+    "static/media/Course_1.pdf": "/personal-portfolio/static/media/Course_1.8fb4e638e9f0d3e5ffc6.pdf",
+    "static/media/Course_6.pdf": "/personal-portfolio/static/media/Course_6.fbbcd9532a2f01d7ddf5.pdf",
     "static/media/ct.png": "/personal-portfolio/static/media/ct.332dffb2c2d59b6619f8.png",
     "static/media/about2.png": "/personal-portfolio/static/media/about2.a37d4bba00a14d737bd4.png",
     "static/media/about1.png": "/personal-portfolio/static/media/about1.b337e9dc8c62f2caf3e5.png",
@@ -16,14 +25,15 @@
     "static/media/Pranava_Resume.pdf": "/personal-portfolio/static/media/Pranava_Resume.f61ee14d4fac5d572d34.pdf",
     "static/media/logo-pranav.png": "/personal-portfolio/static/media/logo-pranav.dffcd645de9ff935590e.png",
     "static/media/about.png": "/personal-portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/cyber-badge.pdf": "/personal-portfolio/static/media/cyber-badge.ce58d42d74397bf06e2f.pdf",
     "static/media/home-bg.jpg": "/personal-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "index.html": "/personal-portfolio/index.html",
-    "main.09f1971a.css.map": "/personal-portfolio/static/css/main.09f1971a.css.map",
-    "main.0f90138a.js.map": "/personal-portfolio/static/js/main.0f90138a.js.map",
+    "main.880c547f.css.map": "/personal-portfolio/static/css/main.880c547f.css.map",
+    "main.b0423b4b.js.map": "/personal-portfolio/static/js/main.b0423b4b.js.map",
     "453.ace21015.chunk.js.map": "/personal-portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09f1971a.css",
-    "static/js/main.0f90138a.js"
+    "static/css/main.880c547f.css",
+    "static/js/main.b0423b4b.js"
   ]
 }
