@@ -47,4 +47,4 @@ You will find all the components used and you can edit your information accordin
 
 
 ## Citation
-This portfolio has been inspired by the website created by Soumyajit Behera. You can view their work at: [https://soumyajit.vercel.app](https://soumyajit.vercel.app).
+This portfolio has been inspired by the website created by Soumyajit Behera. You can view their work at: [https://soumyajit.vercel.app](https://soumyajit.vercel.app). The source code can be found at: [https://github.com/soumyajit4419/Portfolio]
