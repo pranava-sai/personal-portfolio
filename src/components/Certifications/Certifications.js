@@ -13,6 +13,10 @@ import cyber from "../../Certificates/Cybersecurity/Cybersecurity.pdf";
 import badge from "../../Certificates/Cybersecurity/cyber-badge.pdf";
 // import metaIos from "../../Certificates/iOS/meta-ios.pdf";
 // import metaBadge from "../../Certificates/iOS/meta-badge.pdf";
+import iOS1 from "../../Certificates/iOS/iOS-1.pdf";
+import iOS2 from "../../Certificates/iOS/iOS-2.pdf";
+import iOS3 from "../../Certificates/iOS/iOS-3.pdf";
+import iOS4 from "../../Certificates/iOS/iOS-4.pdf";
 
 const certifications = {
   cybersecurity: [
@@ -70,25 +74,25 @@ const certifications = {
       "title": "Introduction to iOS Mobile Application Development",
       "link": "https://www.coursera.org/learn/introduction-to-ios-mobile-application-development?specialization=meta-ios-developer",
       "description": "This course introduces the fundamentals of iOS development, covering the Swift programming language and the Xcode development environment. It provides a comprehensive overview of the iOS ecosystem, teaching students how to build simple iOS applications. Key topics include Swift syntax, user interface design, and debugging techniques, preparing learners for more advanced iOS development courses.",
-      "file": null
+      "file": iOS1
     },
     {
       "title": "Version Control",
       "link": "https://www.coursera.org/learn/introduction-to-version-control?specialization=meta-ios-developer",
       "description": "This course focuses on the essential principles and practices of version control, a critical skill for any developer. Using Git and GitHub, students will learn how to manage code changes, collaborate with others, and maintain the history of a project. Topics include branching, merging, and resolving conflicts, enabling students to effectively track and manage their codebase in iOS development projects.",
-      "file": null
+      "file": iOS2
     },
     {
       "title": "Programming Fundamentals in Swift",
       "link": "https://www.coursera.org/learn/programming-fundamentals-swift?specialization=meta-ios-developer",
       "description": "This course dives deeper into the Swift programming language, covering advanced topics necessary for iOS development. Students will explore complex UI components, data management, and best practices for efficient coding. Key areas include object-oriented programming, error handling, and utilizing Swift's powerful features to create robust and scalable iOS applications, setting a strong foundation for advanced development techniques.",
-      "file": null
+      "file": iOS3
     },
     {
       "title": "Principles of UX/UI Design",
       "link": "https://www.coursera.org/learn/principles-of-ux-ui-design?specialization=meta-ios-developer",
       "description": "In this course, students will understand the principles of UX/UI design specifically for iOS applications. It covers the architecture of iOS apps, focusing on creating user-friendly and aesthetically pleasing interfaces. Topics include user research, wireframing, prototyping, and usability testing, equipping learners with the skills to design intuitive and engaging user experiences that enhance the overall functionality of their applications.",
-      "file": null
+      "file": iOS4
     },
     {
       "title": "Create the User Interface with SwiftUI",
@@ -187,7 +191,7 @@ const Projects = () => {
               </Card.Body>
             </Card>
           </Col>
-          {/* <Col md={6} lg={4} className="mb-4 d-flex align-items-stretch">
+          <Col md={6} lg={4} className="mb-4 d-flex align-items-stretch">
             <Card className="h-100 transparent-card text-center">
               <Card.Body className="transparent-card-body d-flex flex-column align-items-center justify-content-center">
                 <img
@@ -209,7 +213,7 @@ const Projects = () => {
                 </div>
               </Card.Body>
             </Card>
-          </Col> */}
+          </Col>
         </Row>
       )}
       {visibleCertifications && (
