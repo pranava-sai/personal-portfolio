@@ -147,7 +147,7 @@ function ResumeNew() {
                 outline: "none",
                 color: "white",
                 padding: 0,
-                marginLeft: 500,
+                marginLeft: 100,
               }}
             >
               <AiOutlineLeft size={64} color={pageNumber === 1 ? "grey" : "white"} />
@@ -168,7 +168,7 @@ function ResumeNew() {
                 outline: "none",
                 color: "white",
                 padding: 0,
-                marginRight: 500,
+                marginRight: 100,
               }}
             >
               <AiOutlineRight size={64} color={pageNumber === 2 ? "grey" : "white"} />
