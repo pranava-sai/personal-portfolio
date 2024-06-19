@@ -13,10 +13,10 @@ import cyber from "../../Certificates/Cybersecurity/Cybersecurity.pdf";
 import badge from "../../Certificates/Cybersecurity/cyber-badge.pdf";
 // import metaIos from "../../Certificates/iOS/meta-ios.pdf";
 // import metaBadge from "../../Certificates/iOS/meta-badge.pdf";
-import iOS1 from "../../Certificates/iOS/iOS-1.pdf";
-import iOS2 from "../../Certificates/iOS/iOS-2.pdf";
-import iOS3 from "../../Certificates/iOS/iOS-3.pdf";
-import iOS4 from "../../Certificates/iOS/iOS-4.pdf";
+// import iOS1 from "../../Certificates/iOS/iOS-1.pdf";
+// import iOS2 from "../../Certificates/iOS/iOS-2.pdf";
+// import iOS3 from "../../Certificates/iOS/iOS-3.pdf";
+// import iOS4 from "../../Certificates/iOS/iOS-4.pdf";
 
 const certifications = {
   cybersecurity: [
@@ -69,80 +69,80 @@ const certifications = {
       file: pdf8
     }
   ],
-  iOS: [
-    {
-      "title": "Introduction to iOS Mobile Application Development",
-      "link": "https://www.coursera.org/learn/introduction-to-ios-mobile-application-development?specialization=meta-ios-developer",
-      "description": "This course introduces the fundamentals of iOS development, covering the Swift programming language and the Xcode development environment. It provides a comprehensive overview of the iOS ecosystem, teaching students how to build simple iOS applications. Key topics include Swift syntax, user interface design, and debugging techniques, preparing learners for more advanced iOS development courses.",
-      "file": iOS1
-    },
-    {
-      "title": "Version Control",
-      "link": "https://www.coursera.org/learn/introduction-to-version-control?specialization=meta-ios-developer",
-      "description": "This course focuses on the essential principles and practices of version control, a critical skill for any developer. Using Git and GitHub, students will learn how to manage code changes, collaborate with others, and maintain the history of a project. Topics include branching, merging, and resolving conflicts, enabling students to effectively track and manage their codebase in iOS development projects.",
-      "file": iOS2
-    },
-    {
-      "title": "Programming Fundamentals in Swift",
-      "link": "https://www.coursera.org/learn/programming-fundamentals-swift?specialization=meta-ios-developer",
-      "description": "This course dives deeper into the Swift programming language, covering advanced topics necessary for iOS development. Students will explore complex UI components, data management, and best practices for efficient coding. Key areas include object-oriented programming, error handling, and utilizing Swift's powerful features to create robust and scalable iOS applications, setting a strong foundation for advanced development techniques.",
-      "file": iOS3
-    },
-    {
-      "title": "Principles of UX/UI Design",
-      "link": "https://www.coursera.org/learn/principles-of-ux-ui-design?specialization=meta-ios-developer",
-      "description": "In this course, students will understand the principles of UX/UI design specifically for iOS applications. It covers the architecture of iOS apps, focusing on creating user-friendly and aesthetically pleasing interfaces. Topics include user research, wireframing, prototyping, and usability testing, equipping learners with the skills to design intuitive and engaging user experiences that enhance the overall functionality of their applications.",
-      "file": iOS4
-    },
-    {
-      "title": "Create the User Interface with SwiftUI",
-      "link": "https://www.coursera.org/learn/create-the-user-interface-with-swiftui?specialization=meta-ios-developer",
-      "description": "This course teaches students how to create modern, responsive user interfaces using SwiftUI, Apple's declarative framework for UI development. Students will learn to build dynamic interfaces with less code, leveraging SwiftUI's powerful tools and features. Topics include layout, state management, and animations, providing practical experience in designing visually appealing and functional user interfaces for iOS applications.",
-      "file": null
-    },
-    {
-      "title": "Advanced Programming in Swift",
-      "link": "https://www.coursera.org/learn/advanced-programming-in-swift?specialization=meta-ios-developer",
-      "description": "This course explores advanced programming techniques in Swift, focusing on enhancing students' skills for building complex iOS applications. Key topics include generics, protocols, and advanced error handling. Students will also delve into performance optimization and best practices for writing clean, maintainable code, preparing them for tackling sophisticated development challenges and contributing to professional iOS projects.",
-      "file": null
-    },
-    {
-      "title": "Working with Data in iOS",
-      "link": "https://www.coursera.org/learn/working-with-data-in-ios?specialization=meta-ios-developer",
-      "description": "This course covers various techniques for managing and manipulating data in iOS applications. Students will learn about Core Data, SQLite, and other data storage solutions, understanding how to implement efficient data models. The course also addresses best practices for data security and synchronization, ensuring that applications can handle data effectively and securely in different scenarios, including offline and cloud-based environments.",
-      "file": null
-    },
-    {
-      "title": "Mobile Development and JavaScript",
-      "link": "https://www.coursera.org/learn/mobile-development-and-javascript?specialization=meta-ios-developer",
-      "description": "This course focuses on integrating JavaScript with iOS development, enabling students to build hybrid applications. Key topics include using JavaScript frameworks and libraries alongside Swift, optimizing performance, and ensuring seamless interaction between the two languages. Students will gain practical experience in combining the strengths of JavaScript and iOS development to create versatile and dynamic mobile applications.",
-      "file": null
-    },
-    {
-      "title": "React Basics",
-      "link": "https://www.coursera.org/learn/react-basics?specialization=meta-ios-developer",
-      "description": "This course provides a comprehensive introduction to React, a popular JavaScript library for building user interfaces. Students will learn the fundamental concepts of React, including components, state management, and lifecycle methods. By the end of the course, learners will be able to create dynamic, responsive web applications and understand how to integrate React with other technologies for full-stack development.",
-      "file": null
-    },
-    {
-      "title": "React Native",
-      "link": "https://www.coursera.org/learn/react-basics?specialization=meta-ios-developer",
-      "description": "In this course, students will learn how to use React Native to build cross-platform mobile applications. The course covers the fundamentals of React Native, including component creation, state management, and navigation. By leveraging their knowledge of JavaScript and React, students will be able to create efficient, high-performing mobile apps that run on both iOS and Android devices.",
-      "file": null
-    },
-    {
-      "title": "iOS App Capstone",
-      "link": "https://www.coursera.org/learn/ios-app-capstone?specialization=meta-ios-developer",
-      "description": "The iOS App Capstone course allows students to apply their knowledge by building a complete iOS application. This project-based course involves designing, developing, and testing an app from start to finish. Students will showcase their skills in Swift, Xcode, and iOS development principles, producing a portfolio-ready application that demonstrates their capability to create professional-grade iOS software.",
-      "file": null
-    },
-    {
-      "title": "Coding Interview Preparation",
-      "link": "https://www.coursera.org/learn/coding-interview-preparation?specialization=meta-ios-developer",
-      "description": "This course is designed to prepare students for coding interviews, focusing on problem-solving techniques and common interview questions. Topics include data structures, algorithms, and system design, providing a thorough review of key concepts. Students will practice coding problems and receive tips for effective communication during technical interviews, enhancing their readiness for job applications and interviews in the tech industry.",
-      "file": null
-    }
-  ]
+  // iOS: [
+  //   {
+  //     "title": "Introduction to iOS Mobile Application Development",
+  //     "link": "https://www.coursera.org/learn/introduction-to-ios-mobile-application-development?specialization=meta-ios-developer",
+  //     "description": "This course introduces the fundamentals of iOS development, covering the Swift programming language and the Xcode development environment. It provides a comprehensive overview of the iOS ecosystem, teaching students how to build simple iOS applications. Key topics include Swift syntax, user interface design, and debugging techniques, preparing learners for more advanced iOS development courses.",
+  //     "file": iOS1
+  //   },
+  //   {
+  //     "title": "Version Control",
+  //     "link": "https://www.coursera.org/learn/introduction-to-version-control?specialization=meta-ios-developer",
+  //     "description": "This course focuses on the essential principles and practices of version control, a critical skill for any developer. Using Git and GitHub, students will learn how to manage code changes, collaborate with others, and maintain the history of a project. Topics include branching, merging, and resolving conflicts, enabling students to effectively track and manage their codebase in iOS development projects.",
+  //     "file": iOS2
+  //   },
+  //   {
+  //     "title": "Programming Fundamentals in Swift",
+  //     "link": "https://www.coursera.org/learn/programming-fundamentals-swift?specialization=meta-ios-developer",
+  //     "description": "This course dives deeper into the Swift programming language, covering advanced topics necessary for iOS development. Students will explore complex UI components, data management, and best practices for efficient coding. Key areas include object-oriented programming, error handling, and utilizing Swift's powerful features to create robust and scalable iOS applications, setting a strong foundation for advanced development techniques.",
+  //     "file": iOS3
+  //   },
+  //   {
+  //     "title": "Principles of UX/UI Design",
+  //     "link": "https://www.coursera.org/learn/principles-of-ux-ui-design?specialization=meta-ios-developer",
+  //     "description": "In this course, students will understand the principles of UX/UI design specifically for iOS applications. It covers the architecture of iOS apps, focusing on creating user-friendly and aesthetically pleasing interfaces. Topics include user research, wireframing, prototyping, and usability testing, equipping learners with the skills to design intuitive and engaging user experiences that enhance the overall functionality of their applications.",
+  //     "file": iOS4
+  //   },
+  //   {
+  //     "title": "Create the User Interface with SwiftUI",
+  //     "link": "https://www.coursera.org/learn/create-the-user-interface-with-swiftui?specialization=meta-ios-developer",
+  //     "description": "This course teaches students how to create modern, responsive user interfaces using SwiftUI, Apple's declarative framework for UI development. Students will learn to build dynamic interfaces with less code, leveraging SwiftUI's powerful tools and features. Topics include layout, state management, and animations, providing practical experience in designing visually appealing and functional user interfaces for iOS applications.",
+  //     "file": null
+  //   },
+  //   {
+  //     "title": "Advanced Programming in Swift",
+  //     "link": "https://www.coursera.org/learn/advanced-programming-in-swift?specialization=meta-ios-developer",
+  //     "description": "This course explores advanced programming techniques in Swift, focusing on enhancing students' skills for building complex iOS applications. Key topics include generics, protocols, and advanced error handling. Students will also delve into performance optimization and best practices for writing clean, maintainable code, preparing them for tackling sophisticated development challenges and contributing to professional iOS projects.",
+  //     "file": null
+  //   },
+  //   {
+  //     "title": "Working with Data in iOS",
+  //     "link": "https://www.coursera.org/learn/working-with-data-in-ios?specialization=meta-ios-developer",
+  //     "description": "This course covers various techniques for managing and manipulating data in iOS applications. Students will learn about Core Data, SQLite, and other data storage solutions, understanding how to implement efficient data models. The course also addresses best practices for data security and synchronization, ensuring that applications can handle data effectively and securely in different scenarios, including offline and cloud-based environments.",
+  //     "file": null
+  //   },
+  //   {
+  //     "title": "Mobile Development and JavaScript",
+  //     "link": "https://www.coursera.org/learn/mobile-development-and-javascript?specialization=meta-ios-developer",
+  //     "description": "This course focuses on integrating JavaScript with iOS development, enabling students to build hybrid applications. Key topics include using JavaScript frameworks and libraries alongside Swift, optimizing performance, and ensuring seamless interaction between the two languages. Students will gain practical experience in combining the strengths of JavaScript and iOS development to create versatile and dynamic mobile applications.",
+  //     "file": null
+  //   },
+  //   {
+  //     "title": "React Basics",
+  //     "link": "https://www.coursera.org/learn/react-basics?specialization=meta-ios-developer",
+  //     "description": "This course provides a comprehensive introduction to React, a popular JavaScript library for building user interfaces. Students will learn the fundamental concepts of React, including components, state management, and lifecycle methods. By the end of the course, learners will be able to create dynamic, responsive web applications and understand how to integrate React with other technologies for full-stack development.",
+  //     "file": null
+  //   },
+  //   {
+  //     "title": "React Native",
+  //     "link": "https://www.coursera.org/learn/react-basics?specialization=meta-ios-developer",
+  //     "description": "In this course, students will learn how to use React Native to build cross-platform mobile applications. The course covers the fundamentals of React Native, including component creation, state management, and navigation. By leveraging their knowledge of JavaScript and React, students will be able to create efficient, high-performing mobile apps that run on both iOS and Android devices.",
+  //     "file": null
+  //   },
+  //   {
+  //     "title": "iOS App Capstone",
+  //     "link": "https://www.coursera.org/learn/ios-app-capstone?specialization=meta-ios-developer",
+  //     "description": "The iOS App Capstone course allows students to apply their knowledge by building a complete iOS application. This project-based course involves designing, developing, and testing an app from start to finish. Students will showcase their skills in Swift, Xcode, and iOS development principles, producing a portfolio-ready application that demonstrates their capability to create professional-grade iOS software.",
+  //     "file": null
+  //   },
+  //   {
+  //     "title": "Coding Interview Preparation",
+  //     "link": "https://www.coursera.org/learn/coding-interview-preparation?specialization=meta-ios-developer",
+  //     "description": "This course is designed to prepare students for coding interviews, focusing on problem-solving techniques and common interview questions. Topics include data structures, algorithms, and system design, providing a thorough review of key concepts. Students will practice coding problems and receive tips for effective communication during technical interviews, enhancing their readiness for job applications and interviews in the tech industry.",
+  //     "file": null
+  //   }
+  // ]
 };
 
 const Projects = () => {
@@ -191,7 +191,7 @@ const Projects = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={6} lg={4} className="mb-4 d-flex align-items-stretch">
+          {/* <Col md={6} lg={4} className="mb-4 d-flex align-items-stretch">
             <Card className="h-100 transparent-card text-center">
               <Card.Body className="transparent-card-body d-flex flex-column align-items-center justify-content-center">
                 <img
@@ -213,7 +213,7 @@ const Projects = () => {
                 </div>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
       )}
       {visibleCertifications && (
