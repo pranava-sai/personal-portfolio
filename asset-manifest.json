@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.880c547f.css",
-    "main.js": "/personal-portfolio/static/js/main.c0de25fa.js",
+    "main.js": "/personal-portfolio/static/js/main.b4090056.js",
     "static/js/453.ace21015.chunk.js": "/personal-portfolio/static/js/453.ace21015.chunk.js",
     "static/media/pranav-logo.gif": "/personal-portfolio/static/media/pranav-logo.d5ac47638e6cb458481f.gif",
     "static/media/monalisa.png": "/personal-portfolio/static/media/monalisa.008598a085904faa28cc.png",
@@ -17,7 +17,7 @@
     "static/media/Course_1.pdf": "/personal-portfolio/static/media/Course_1.8fb4e638e9f0d3e5ffc6.pdf",
     "static/media/Course_6.pdf": "/personal-portfolio/static/media/Course_6.fbbcd9532a2f01d7ddf5.pdf",
     "static/media/ct.png": "/personal-portfolio/static/media/ct.332dffb2c2d59b6619f8.png",
-    "static/media/Pranava-Sai-Resume.pdf": "/personal-portfolio/static/media/Pranava-Sai-Resume.b7c628025123cbe2fb48.pdf",
+    "static/media/Pranava-2024.pdf": "/personal-portfolio/static/media/Pranava-2024.59e202af80bf49c66aee.pdf",
     "static/media/about2.png": "/personal-portfolio/static/media/about2.a37d4bba00a14d737bd4.png",
     "static/media/about1.png": "/personal-portfolio/static/media/about1.b337e9dc8c62f2caf3e5.png",
     "static/media/Git.jpeg": "/personal-portfolio/static/media/Git.b96d612c23699b77597a.jpeg",
@@ -29,11 +29,11 @@
     "static/media/home-bg.jpg": "/personal-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "index.html": "/personal-portfolio/index.html",
     "main.880c547f.css.map": "/personal-portfolio/static/css/main.880c547f.css.map",
-    "main.c0de25fa.js.map": "/personal-portfolio/static/js/main.c0de25fa.js.map",
+    "main.b4090056.js.map": "/personal-portfolio/static/js/main.b4090056.js.map",
     "453.ace21015.chunk.js.map": "/personal-portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.880c547f.css",
-    "static/js/main.c0de25fa.js"
+    "static/js/main.b4090056.js"
   ]
 }
