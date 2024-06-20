@@ -7,9 +7,15 @@ import {
   SiAndroidstudio,
   SiEclipseche,
   SiIntellijidea,
-  SiAnaconda,
   SiJupyter,
-  SiWindows11
+  SiWindows11,
+  SiXcode,
+  SiPycharm,
+  SiBootstrap,
+  SiGit,
+  SiGithub,
+  SiGitlab,
+  SiGithubpages
 } from "react-icons/si";
 
 function Toolstack() {
@@ -25,9 +31,6 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAnaconda />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -41,6 +44,27 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiWindows11 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiXcode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPycharm />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithubpages />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab />
       </Col>
     </Row>
   );

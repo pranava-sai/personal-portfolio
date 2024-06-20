@@ -8,12 +8,16 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiSwift,
 } from "react-icons/di";
 import {
   SiMysql,
   SiAndroid,
   SiApple,
-  SiGoogle
+  SiGoogle,
+  SiCplusplus,
+  SiC,
+  SiKotlin
 } from "react-icons/si";
 
 function Techstack() {
@@ -51,6 +55,18 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGoogle />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSwift />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiC />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCplusplus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKotlin />
       </Col>
     </Row>
   );
